@@ -1,7 +1,12 @@
+.container {
+    position: relative;
+}
+
 a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-family: 'Poppins-Regular';
+    font-size: 1.1rem;
 }
 
 li {
@@ -25,4 +30,45 @@ li {
     height: 6rem;
     color: #fff705;
     font-size: 4.5rem;
+    overflow: hidden;
 }
+
+.job span {
+    color: var(--secondary-color);
+    display: block;
+    height: 6rem;
+    z-index: 10;
+    animation: 5s ease 0.5s infinite normal none running slide-up;
+}
+
+
+.resumeButton {
+    border: 1.5px solid #fff705;
+    border-radius: 5px;
+    background-color: transparent;
+    font-family: 'Poppins-Regular';
+    width: 12rem;
+    height: 3rem;
+    color: #fff;
+}
+
+.resumeRow {
+    margin-top: 4rem;
+}
+
+.dev-img {
+    width: 35rem;
+    height: 35rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    animation: float 4s infinite;
+    z-index: 2;
+}
+
+.dev-text {
+    margin-top: 1rem;
+    width: 60%;
+    color: #fff;
+}
+
