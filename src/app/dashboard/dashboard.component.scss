@@ -66,6 +66,11 @@ li {
     z-index: 2;
 }
 
+.about-text {
+    text-align: center;
+    color: #fff;
+}
+
 @keyframes moveUpDown {
     0% {
       transform: translateY(0);
@@ -82,5 +87,15 @@ li {
     margin-top: 1rem;
     width: 60%;
     color: #fff;
+}
+
+.aboutMe {
+    margin-top: 8rem;
+}
+
+.section-heading {
+    font-family: 'Poppins-Bold';
+    color: #fff;
+    text-align: center;
 }
 
